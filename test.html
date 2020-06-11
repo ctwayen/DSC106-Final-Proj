@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2016cb99e85c4e56aff4dbad185f8e79 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2016cb99e85c4e56aff4dbad185f8e79" ></div>
+        
+</body>
+<script>    
+    
+            var map_2016cb99e85c4e56aff4dbad185f8e79 = L.map(
+                "map_2016cb99e85c4e56aff4dbad185f8e79",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a385ebad3906424ab7d2ac4e778b754c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2016cb99e85c4e56aff4dbad185f8e79);
+        
+    
+            var marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a = L.markerClusterGroup(
+                {}
+            );
+            map_2016cb99e85c4e56aff4dbad185f8e79.addLayer(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+            var circle_marker_12113f1f7a18442ebe39086ebbd3ac46 = L.circleMarker(
+                [41.000028, 19.9999619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_d32e5f84205e483399a2c18dc8c67681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bb3a8bbc6a94e0e856611293cd2b458 = $(`<div id="html_2bb3a8bbc6a94e0e856611293cd2b458" style="width: 100.0%; height: 100.0%;">Country : Albania<br>                     # of Suicides: 3.5028787878787875<br></div>`)[0];
+            popup_d32e5f84205e483399a2c18dc8c67681.setContent(html_2bb3a8bbc6a94e0e856611293cd2b458);
+        
+
+        circle_marker_12113f1f7a18442ebe39086ebbd3ac46.bindPopup(popup_d32e5f84205e483399a2c18dc8c67681)
+        ;
+
+        
+    
+    
+            var circle_marker_a058583331fa4e898b3254c10255ec61 = L.circleMarker(
+                [17.2234721, -61.9554608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6f28b15dd7d4427480af67a968897bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9abce01f7acb410cb494c4c2ab78bf64 = $(`<div id="html_9abce01f7acb410cb494c4c2ab78bf64" style="width: 100.0%; height: 100.0%;">Country : Antigua and Barbuda<br>                     # of Suicides: 0.5529012345679012<br></div>`)[0];
+            popup_6f28b15dd7d4427480af67a968897bb4.setContent(html_9abce01f7acb410cb494c4c2ab78bf64);
+        
+
+        circle_marker_a058583331fa4e898b3254c10255ec61.bindPopup(popup_6f28b15dd7d4427480af67a968897bb4)
+        ;
+
+        
+    
+    
+            var circle_marker_a0d67912bc194d8e92178aab922c6ec8 = L.circleMarker(
+                [-34.9964963, -64.9672817],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2ebfb50c666b45d698bbf8e8af1e3973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c9d0bb51cde41baa7eb83c498e2d811 = $(`<div id="html_7c9d0bb51cde41baa7eb83c498e2d811" style="width: 100.0%; height: 100.0%;">Country : Argentina<br>                     # of Suicides: 10.46932795698924<br></div>`)[0];
+            popup_2ebfb50c666b45d698bbf8e8af1e3973.setContent(html_7c9d0bb51cde41baa7eb83c498e2d811);
+        
+
+        circle_marker_a0d67912bc194d8e92178aab922c6ec8.bindPopup(popup_2ebfb50c666b45d698bbf8e8af1e3973)
+        ;
+
+        
+    
+    
+            var circle_marker_db6173993e8349ec802ab6a830d8b340 = L.circleMarker(
+                [40.7696272, 44.6736646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6b9b431e9109422da881b8490b718b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b762fce93ae456abc6a71a067d84592 = $(`<div id="html_4b762fce93ae456abc6a71a067d84592" style="width: 100.0%; height: 100.0%;">Country : Armenia<br>                     # of Suicides: 3.275872483221477<br></div>`)[0];
+            popup_6b9b431e9109422da881b8490b718b26.setContent(html_4b762fce93ae456abc6a71a067d84592);
+        
+
+        circle_marker_db6173993e8349ec802ab6a830d8b340.bindPopup(popup_6b9b431e9109422da881b8490b718b26)
+        ;
+
+        
+    
+    
+            var circle_marker_bc4f70234143486bad25926a57696315 = L.circleMarker(
+                [12.5013629, -69.9618475],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_c858228a62f844f1a8b1d3af22e50d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884b0ddb36204b54af4a16eac674fa28 = $(`<div id="html_884b0ddb36204b54af4a16eac674fa28" style="width: 100.0%; height: 100.0%;">Country : Aruba<br>                     # of Suicides: 9.503095238095236<br></div>`)[0];
+            popup_c858228a62f844f1a8b1d3af22e50d38.setContent(html_884b0ddb36204b54af4a16eac674fa28);
+        
+
+        circle_marker_bc4f70234143486bad25926a57696315.bindPopup(popup_c858228a62f844f1a8b1d3af22e50d38)
+        ;
+
+        
+    
+    
+            var circle_marker_fe8efda065b24fa3a6e78848d15be07c = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_165aa85d884a405d977fbf0fcca344f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a46d5171126410aad3f81d3e60ef824 = $(`<div id="html_8a46d5171126410aad3f81d3e60ef824" style="width: 100.0%; height: 100.0%;">Country : Australia<br>                     # of Suicides: 12.992805555555568<br></div>`)[0];
+            popup_165aa85d884a405d977fbf0fcca344f6.setContent(html_8a46d5171126410aad3f81d3e60ef824);
+        
+
+        circle_marker_fe8efda065b24fa3a6e78848d15be07c.bindPopup(popup_165aa85d884a405d977fbf0fcca344f6)
+        ;
+
+        
+    
+    
+            var circle_marker_90ef1fe4068a4ccf89e5f439ae30c598 = L.circleMarker(
+                [47.2000338, 13.199959],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_14dd15a53fc346c989a0b929e3cba09f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d9410a4ed24358bf14ca6c32c8e45f = $(`<div id="html_b4d9410a4ed24358bf14ca6c32c8e45f" style="width: 100.0%; height: 100.0%;">Country : Austria<br>                     # of Suicides: 23.75976439790575<br></div>`)[0];
+            popup_14dd15a53fc346c989a0b929e3cba09f.setContent(html_b4d9410a4ed24358bf14ca6c32c8e45f);
+        
+
+        circle_marker_90ef1fe4068a4ccf89e5f439ae30c598.bindPopup(popup_14dd15a53fc346c989a0b929e3cba09f)
+        ;
+
+        
+    
+    
+            var circle_marker_9dd32121b18b4dc6acdeb0544aa7e450 = L.circleMarker(
+                [40.3936294, 47.7872508],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_4a130ae9cc7d4c94885aaabea4435986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1829f694d744e30a5097dde2b95a922 = $(`<div id="html_a1829f694d744e30a5097dde2b95a922" style="width: 100.0%; height: 100.0%;">Country : Azerbaijan<br>                     # of Suicides: 1.8554166666666676<br></div>`)[0];
+            popup_4a130ae9cc7d4c94885aaabea4435986.setContent(html_a1829f694d744e30a5097dde2b95a922);
+        
+
+        circle_marker_9dd32121b18b4dc6acdeb0544aa7e450.bindPopup(popup_4a130ae9cc7d4c94885aaabea4435986)
+        ;
+
+        
+    
+    
+            var circle_marker_b8512fb2d9cb4e8ca98d4c3e24e1c542 = L.circleMarker(
+                [24.7736546, -78.0000547],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_40bfcb69a1d94a15b2b0e1e0bbc5fe64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_125ebad943724962a3bd54b5f0ef363c = $(`<div id="html_125ebad943724962a3bd54b5f0ef363c" style="width: 100.0%; height: 100.0%;">Country : Bahamas<br>                     # of Suicides: 1.2473913043478262<br></div>`)[0];
+            popup_40bfcb69a1d94a15b2b0e1e0bbc5fe64.setContent(html_125ebad943724962a3bd54b5f0ef363c);
+        
+
+        circle_marker_b8512fb2d9cb4e8ca98d4c3e24e1c542.bindPopup(popup_40bfcb69a1d94a15b2b0e1e0bbc5fe64)
+        ;
+
+        
+    
+    
+            var circle_marker_f86c39457d0e4d8d813bd8b6ad04acd8 = L.circleMarker(
+                [26.1551249, 50.5344606],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_440d2277765343a3a2f3833ff9440f0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f10490dcf0834cb6ae5a16f60267c278 = $(`<div id="html_f10490dcf0834cb6ae5a16f60267c278" style="width: 100.0%; height: 100.0%;">Country : Bahrain<br>                     # of Suicides: 1.8541269841269843<br></div>`)[0];
+            popup_440d2277765343a3a2f3833ff9440f0d.setContent(html_f10490dcf0834cb6ae5a16f60267c278);
+        
+
+        circle_marker_f86c39457d0e4d8d813bd8b6ad04acd8.bindPopup(popup_440d2277765343a3a2f3833ff9440f0d)
+        ;
+
+        
+    
+    
+            var circle_marker_3b0dbafe9aa845c79c5d7f368043a1e6 = L.circleMarker(
+                [13.1500331, -59.5250305],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6605d2a45c2e4761bb1bca50968878c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37742e840c7c46e686818d3a8de730ee = $(`<div id="html_37742e840c7c46e686818d3a8de730ee" style="width: 100.0%; height: 100.0%;">Country : Barbados<br>                     # of Suicides: 2.970433333333334<br></div>`)[0];
+            popup_6605d2a45c2e4761bb1bca50968878c7.setContent(html_37742e840c7c46e686818d3a8de730ee);
+        
+
+        circle_marker_3b0dbafe9aa845c79c5d7f368043a1e6.bindPopup(popup_6605d2a45c2e4761bb1bca50968878c7)
+        ;
+
+        
+    
+    
+            var circle_marker_237016a39d1042089d43b70152de47d7 = L.circleMarker(
+                [53.4250605, 27.6971358],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_e56b1117fb8e4d189a6a1bc891061665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81785014599743b0b4ae651da5791127 = $(`<div id="html_81785014599743b0b4ae651da5791127" style="width: 100.0%; height: 100.0%;">Country : Belarus<br>                     # of Suicides: 31.07591269841269<br></div>`)[0];
+            popup_e56b1117fb8e4d189a6a1bc891061665.setContent(html_81785014599743b0b4ae651da5791127);
+        
+
+        circle_marker_237016a39d1042089d43b70152de47d7.bindPopup(popup_e56b1117fb8e4d189a6a1bc891061665)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba914193b0b4f88be1c131d02991e32 = L.circleMarker(
+                [50.6402809, 4.6667145],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_14acc360bab3463d879951ff1f80d2b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eca59ad345544146aa751ab43329d0d1 = $(`<div id="html_eca59ad345544146aa751ab43329d0d1" style="width: 100.0%; height: 100.0%;">Country : Belgium<br>                     # of Suicides: 21.237903225806463<br></div>`)[0];
+            popup_14acc360bab3463d879951ff1f80d2b5.setContent(html_eca59ad345544146aa751ab43329d0d1);
+        
+
+        circle_marker_3ba914193b0b4f88be1c131d02991e32.bindPopup(popup_14acc360bab3463d879951ff1f80d2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_690a489acdab43fc8c78dc0d4e11a8b3 = L.circleMarker(
+                [16.8259793, -88.7600927],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f2a0bef84eb24cffa591037943710c9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_741236781140488d87683e8b0f572bb5 = $(`<div id="html_741236781140488d87683e8b0f572bb5" style="width: 100.0%; height: 100.0%;">Country : Belize<br>                     # of Suicides: 6.230625000000003<br></div>`)[0];
+            popup_f2a0bef84eb24cffa591037943710c9c.setContent(html_741236781140488d87683e8b0f572bb5);
+        
+
+        circle_marker_690a489acdab43fc8c78dc0d4e11a8b3.bindPopup(popup_f2a0bef84eb24cffa591037943710c9c)
+        ;
+
+        
+    
+    
+            var circle_marker_938193076b184d7faf750ba94875f949 = L.circleMarker(
+                [44.3053476, 17.5961467],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f5697ad20a3444d09eb6da49ab06833c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_601b9a4f3c5d49c2b239b1c9db2013a8 = $(`<div id="html_601b9a4f3c5d49c2b239b1c9db2013a8" style="width: 100.0%; height: 100.0%;">Country : Bosnia and Herzegovina<br>                     # of Suicides: 4.617083333333333<br></div>`)[0];
+            popup_f5697ad20a3444d09eb6da49ab06833c.setContent(html_601b9a4f3c5d49c2b239b1c9db2013a8);
+        
+
+        circle_marker_938193076b184d7faf750ba94875f949.bindPopup(popup_f5697ad20a3444d09eb6da49ab06833c)
+        ;
+
+        
+    
+    
+            var circle_marker_19328b9b3ede4f4eae9a9a3f1be2a5ad = L.circleMarker(
+                [-10.3333333, -53.2],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_0f71d561b7fc416d82a32e9d36b5d67d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b09014d6b4a846759ac657dbc5216ce6 = $(`<div id="html_b09014d6b4a846759ac657dbc5216ce6" style="width: 100.0%; height: 100.0%;">Country : Brazil<br>                     # of Suicides: 5.846021505376345<br></div>`)[0];
+            popup_0f71d561b7fc416d82a32e9d36b5d67d.setContent(html_b09014d6b4a846759ac657dbc5216ce6);
+        
+
+        circle_marker_19328b9b3ede4f4eae9a9a3f1be2a5ad.bindPopup(popup_0f71d561b7fc416d82a32e9d36b5d67d)
+        ;
+
+        
+    
+    
+            var circle_marker_15461e4ebfe946668e00a9cd103b79aa = L.circleMarker(
+                [42.6073975, 25.4856617],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_9e068a0877184eb69d6dfdeebf6b3096 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54bb1658a8e4a7b9194e6d35c6aeaa2 = $(`<div id="html_e54bb1658a8e4a7b9194e6d35c6aeaa2" style="width: 100.0%; height: 100.0%;">Country : Bulgaria<br>                     # of Suicides: 19.489111111111132<br></div>`)[0];
+            popup_9e068a0877184eb69d6dfdeebf6b3096.setContent(html_e54bb1658a8e4a7b9194e6d35c6aeaa2);
+        
+
+        circle_marker_15461e4ebfe946668e00a9cd103b79aa.bindPopup(popup_9e068a0877184eb69d6dfdeebf6b3096)
+        ;
+
+        
+    
+    
+            var circle_marker_ec97481922f54b73b2186bd657dbf891 = L.circleMarker(
+                [16.0000552, -24.0083947],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_a353da37518a48d3a34bacb3b1a6271b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de3e8ae8d3a8463e9466a8e9b8684b09 = $(`<div id="html_de3e8ae8d3a8463e9466a8e9b8684b09" style="width: 100.0%; height: 100.0%;">Country : Cabo Verde<br>                     # of Suicides: 11.153333333333334<br></div>`)[0];
+            popup_a353da37518a48d3a34bacb3b1a6271b.setContent(html_de3e8ae8d3a8463e9466a8e9b8684b09);
+        
+
+        circle_marker_ec97481922f54b73b2186bd657dbf891.bindPopup(popup_a353da37518a48d3a34bacb3b1a6271b)
+        ;
+
+        
+    
+    
+            var circle_marker_c82e0433bee04afcad6cfe678f67f383 = L.circleMarker(
+                [61.0666922, -107.9917071],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_afa04c6f4fe94d32a16f0710e682d414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9280d821c52c4c36b309f9fe512685fe = $(`<div id="html_9280d821c52c4c36b309f9fe512685fe" style="width: 100.0%; height: 100.0%;">Country : Canada<br>                     # of Suicides: 12.467586206896545<br></div>`)[0];
+            popup_afa04c6f4fe94d32a16f0710e682d414.setContent(html_9280d821c52c4c36b309f9fe512685fe);
+        
+
+        circle_marker_c82e0433bee04afcad6cfe678f67f383.bindPopup(popup_afa04c6f4fe94d32a16f0710e682d414)
+        ;
+
+        
+    
+    
+            var circle_marker_79de2086c6184217ada78a1ebe590634 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f09292536aa24dc0b7bfd58b536315b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54fdc58f9dda42c09af83ed8d2a68472 = $(`<div id="html_54fdc58f9dda42c09af83ed8d2a68472" style="width: 100.0%; height: 100.0%;">Country : Chile<br>                     # of Suicides: 10.54204301075269<br></div>`)[0];
+            popup_f09292536aa24dc0b7bfd58b536315b9.setContent(html_54fdc58f9dda42c09af83ed8d2a68472);
+        
+
+        circle_marker_79de2086c6184217ada78a1ebe590634.bindPopup(popup_f09292536aa24dc0b7bfd58b536315b9)
+        ;
+
+        
+    
+    
+            var circle_marker_f208c9e6c6a740eb9d231fb5d875cb90 = L.circleMarker(
+                [2.8894434, -73.783892],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_31de4a7fd5fe4a7ebf37a326b0499468 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b2a502435e74fc1a31e7da28e3dfe84 = $(`<div id="html_2b2a502435e74fc1a31e7da28e3dfe84" style="width: 100.0%; height: 100.0%;">Country : Colombia<br>                     # of Suicides: 5.401586021505377<br></div>`)[0];
+            popup_31de4a7fd5fe4a7ebf37a326b0499468.setContent(html_2b2a502435e74fc1a31e7da28e3dfe84);
+        
+
+        circle_marker_f208c9e6c6a740eb9d231fb5d875cb90.bindPopup(popup_31de4a7fd5fe4a7ebf37a326b0499468)
+        ;
+
+        
+    
+    
+            var circle_marker_4aeb0a134b2e4658a78a274c8f026755 = L.circleMarker(
+                [10.2735633, -84.0739102],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_71a759546ad64a86848276507ad01b4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532d0581e2f941d191d388be4d9bd9df = $(`<div id="html_532d0581e2f941d191d388be4d9bd9df" style="width: 100.0%; height: 100.0%;">Country : Costa Rica<br>                     # of Suicides: 7.093666666666661<br></div>`)[0];
+            popup_71a759546ad64a86848276507ad01b4d.setContent(html_532d0581e2f941d191d388be4d9bd9df);
+        
+
+        circle_marker_4aeb0a134b2e4658a78a274c8f026755.bindPopup(popup_71a759546ad64a86848276507ad01b4d)
+        ;
+
+        
+    
+    
+            var circle_marker_acb1d2896a414515a948bacb20eea6fd = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_c32f8aa9f0d74d30b89f9b6f3ae2774c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88e4cbfc1cbd49b69a1a58f1b6a62902 = $(`<div id="html_88e4cbfc1cbd49b69a1a58f1b6a62902" style="width: 100.0%; height: 100.0%;">Country : Croatia<br>                     # of Suicides: 22.83526717557252<br></div>`)[0];
+            popup_c32f8aa9f0d74d30b89f9b6f3ae2774c.setContent(html_88e4cbfc1cbd49b69a1a58f1b6a62902);
+        
+
+        circle_marker_acb1d2896a414515a948bacb20eea6fd.bindPopup(popup_c32f8aa9f0d74d30b89f9b6f3ae2774c)
+        ;
+
+        
+    
+    
+            var circle_marker_7fb246b6b7c34b3d81f985e070ea9f40 = L.circleMarker(
+                [23.0131338, -80.8328748],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6944aee1f22546aa9ee89a7a210dc7db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c070ff0caac548dbb0627370894beb90 = $(`<div id="html_c070ff0caac548dbb0627370894beb90" style="width: 100.0%; height: 100.0%;">Country : Cuba<br>                     # of Suicides: 21.222048611111124<br></div>`)[0];
+            popup_6944aee1f22546aa9ee89a7a210dc7db.setContent(html_c070ff0caac548dbb0627370894beb90);
+        
+
+        circle_marker_7fb246b6b7c34b3d81f985e070ea9f40.bindPopup(popup_6944aee1f22546aa9ee89a7a210dc7db)
+        ;
+
+        
+    
+    
+            var circle_marker_7cc5d69930c24df99cd80beda4ae9f98 = L.circleMarker(
+                [34.9823018, 33.1451285],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_8c87f3f012cc4e1f9dcf88f3de370498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e74cf71f9174be8804a5efdc6a7ec3a = $(`<div id="html_4e74cf71f9174be8804a5efdc6a7ec3a" style="width: 100.0%; height: 100.0%;">Country : Cyprus<br>                     # of Suicides: 3.2935955056179766<br></div>`)[0];
+            popup_8c87f3f012cc4e1f9dcf88f3de370498.setContent(html_4e74cf71f9174be8804a5efdc6a7ec3a);
+        
+
+        circle_marker_7cc5d69930c24df99cd80beda4ae9f98.bindPopup(popup_8c87f3f012cc4e1f9dcf88f3de370498)
+        ;
+
+        
+    
+    
+            var circle_marker_f179c067d9bf42a98bcc4d86e1d1ce3a = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_ffcaf30a63df48b389bb1948e87faac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bd98762a8dd43ab831fd46c6ad6c44a = $(`<div id="html_6bd98762a8dd43ab831fd46c6ad6c44a" style="width: 100.0%; height: 100.0%;">Country : Czech Republic<br>                     # of Suicides: 18.487546583850907<br></div>`)[0];
+            popup_ffcaf30a63df48b389bb1948e87faac6.setContent(html_6bd98762a8dd43ab831fd46c6ad6c44a);
+        
+
+        circle_marker_f179c067d9bf42a98bcc4d86e1d1ce3a.bindPopup(popup_ffcaf30a63df48b389bb1948e87faac6)
+        ;
+
+        
+    
+    
+            var circle_marker_5c3a67dc0cd3495ba7ca4329859674ec = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_af7df4f2efd349ff884af9524fc06afc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_105eeaaa78fc4c6f811c675357f381ec = $(`<div id="html_105eeaaa78fc4c6f811c675357f381ec" style="width: 100.0%; height: 100.0%;">Country : Denmark<br>                     # of Suicides: 14.097159090909077<br></div>`)[0];
+            popup_af7df4f2efd349ff884af9524fc06afc.setContent(html_105eeaaa78fc4c6f811c675357f381ec);
+        
+
+        circle_marker_5c3a67dc0cd3495ba7ca4329859674ec.bindPopup(popup_af7df4f2efd349ff884af9524fc06afc)
+        ;
+
+        
+    
+    
+            var circle_marker_a2151be3eaa34cf39358c00f1c5ac3d2 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_51c0713c994e400bb638aef0a9de9204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8a8b1529334d61a42113f4accaf9a0 = $(`<div id="html_3e8a8b1529334d61a42113f4accaf9a0" style="width: 100.0%; height: 100.0%;">Country : Dominica<br>                     # of Suicides: 0.0<br></div>`)[0];
+            popup_51c0713c994e400bb638aef0a9de9204.setContent(html_3e8a8b1529334d61a42113f4accaf9a0);
+        
+
+        circle_marker_a2151be3eaa34cf39358c00f1c5ac3d2.bindPopup(popup_51c0713c994e400bb638aef0a9de9204)
+        ;
+
+        
+    
+    
+            var circle_marker_1f69f8811c394eb79e7badf1138c7302 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_1793587426d54a76a31005939df5f476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a9a4e01d2984c5cbbd0638832aef5a2 = $(`<div id="html_0a9a4e01d2984c5cbbd0638832aef5a2" style="width: 100.0%; height: 100.0%;">Country : Ecuador<br>                     # of Suicides: 6.304327956989245<br></div>`)[0];
+            popup_1793587426d54a76a31005939df5f476.setContent(html_0a9a4e01d2984c5cbbd0638832aef5a2);
+        
+
+        circle_marker_1f69f8811c394eb79e7badf1138c7302.bindPopup(popup_1793587426d54a76a31005939df5f476)
+        ;
+
+        
+    
+    
+            var circle_marker_35e0e50eb89f4ec083bbd2cddae09d26 = L.circleMarker(
+                [13.8000382, -88.9140683],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_243bb102b876406d9e6670f489e94cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed3a0476ab6240dcb1fd1568e6f2b60c = $(`<div id="html_ed3a0476ab6240dcb1fd1568e6f2b60c" style="width: 100.0%; height: 100.0%;">Country : El Salvador<br>                     # of Suicides: 10.54145833333334<br></div>`)[0];
+            popup_243bb102b876406d9e6670f489e94cde.setContent(html_ed3a0476ab6240dcb1fd1568e6f2b60c);
+        
+
+        circle_marker_35e0e50eb89f4ec083bbd2cddae09d26.bindPopup(popup_243bb102b876406d9e6670f489e94cde)
+        ;
+
+        
+    
+    
+            var circle_marker_765f6f5ad39d4d29b47edf13b69ca0d4 = L.circleMarker(
+                [58.7523778, 25.3319078],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_45688a4a178c4584af06acf425c40cbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf081d27aea04234be9f9b3639f14f34 = $(`<div id="html_cf081d27aea04234be9f9b3639f14f34" style="width: 100.0%; height: 100.0%;">Country : Estonia<br>                     # of Suicides: 27.276904761904763<br></div>`)[0];
+            popup_45688a4a178c4584af06acf425c40cbf.setContent(html_cf081d27aea04234be9f9b3639f14f34);
+        
+
+        circle_marker_765f6f5ad39d4d29b47edf13b69ca0d4.bindPopup(popup_45688a4a178c4584af06acf425c40cbf)
+        ;
+
+        
+    
+    
+            var circle_marker_384a06b63f5b4818881e1c63b718e9d0 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_b61b26bdd42344a7bf0da134a8ec9441 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40bad93a016441b88ddcb76cc6310ce4 = $(`<div id="html_40bad93a016441b88ddcb76cc6310ce4" style="width: 100.0%; height: 100.0%;">Country : Fiji<br>                     # of Suicides: 5.105000000000001<br></div>`)[0];
+            popup_b61b26bdd42344a7bf0da134a8ec9441.setContent(html_40bad93a016441b88ddcb76cc6310ce4);
+        
+
+        circle_marker_384a06b63f5b4818881e1c63b718e9d0.bindPopup(popup_b61b26bdd42344a7bf0da134a8ec9441)
+        ;
+
+        
+    
+    
+            var circle_marker_a211e97ef8c4463f9c385d046f93f28a = L.circleMarker(
+                [63.2467777, 25.9209164],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6d6f3df454224b44a377a3cc69489dff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2729d061e0454d12a56ce3e73397774c = $(`<div id="html_2729d061e0454d12a56ce3e73397774c" style="width: 100.0%; height: 100.0%;">Country : Finland<br>                     # of Suicides: 22.77043103448276<br></div>`)[0];
+            popup_6d6f3df454224b44a377a3cc69489dff.setContent(html_2729d061e0454d12a56ce3e73397774c);
+        
+
+        circle_marker_a211e97ef8c4463f9c385d046f93f28a.bindPopup(popup_6d6f3df454224b44a377a3cc69489dff)
+        ;
+
+        
+    
+    
+            var circle_marker_32bac7a21b804542835b14bcaa7d8870 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_fa7a522cc98146ebba951805b0db786e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d42789d18c460abf599de3e86bc86d = $(`<div id="html_87d42789d18c460abf599de3e86bc86d" style="width: 100.0%; height: 100.0%;">Country : France<br>                     # of Suicides: 21.67569444444445<br></div>`)[0];
+            popup_fa7a522cc98146ebba951805b0db786e.setContent(html_87d42789d18c460abf599de3e86bc86d);
+        
+
+        circle_marker_32bac7a21b804542835b14bcaa7d8870.bindPopup(popup_fa7a522cc98146ebba951805b0db786e)
+        ;
+
+        
+    
+    
+            var circle_marker_a1d028cb8fe441b1995739aa1b0ae67c = L.circleMarker(
+                [32.3293809, -83.1137366],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_964a6b61e05f4f2f8e642463e7b85273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82486b6305864d89bba47c1397200f03 = $(`<div id="html_82486b6305864d89bba47c1397200f03" style="width: 100.0%; height: 100.0%;">Country : Georgia<br>                     # of Suicides: 4.2287121212121175<br></div>`)[0];
+            popup_964a6b61e05f4f2f8e642463e7b85273.setContent(html_82486b6305864d89bba47c1397200f03);
+        
+
+        circle_marker_a1d028cb8fe441b1995739aa1b0ae67c.bindPopup(popup_964a6b61e05f4f2f8e642463e7b85273)
+        ;
+
+        
+    
+    
+            var circle_marker_2cc3bc990caa4b4fafccb7f2d2c1c492 = L.circleMarker(
+                [51.0834196, 10.4234469],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_68904eef7e3b4c4287207fcc05ffe2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ecf4897c96f48cd92fd3b6b7bc21484 = $(`<div id="html_2ecf4897c96f48cd92fd3b6b7bc21484" style="width: 100.0%; height: 100.0%;">Country : Germany<br>                     # of Suicides: 15.559903846153842<br></div>`)[0];
+            popup_68904eef7e3b4c4287207fcc05ffe2dd.setContent(html_2ecf4897c96f48cd92fd3b6b7bc21484);
+        
+
+        circle_marker_2cc3bc990caa4b4fafccb7f2d2c1c492.bindPopup(popup_68904eef7e3b4c4287207fcc05ffe2dd)
+        ;
+
+        
+    
+    
+            var circle_marker_2f9c7a3e7d3147bbb9bfead7df14ef87 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_fe938b2406b24cd692000329de86f92c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ee90aa805b84e09a96b64260fd75f80 = $(`<div id="html_4ee90aa805b84e09a96b64260fd75f80" style="width: 100.0%; height: 100.0%;">Country : Greece<br>                     # of Suicides: 4.064838709677418<br></div>`)[0];
+            popup_fe938b2406b24cd692000329de86f92c.setContent(html_4ee90aa805b84e09a96b64260fd75f80);
+        
+
+        circle_marker_2f9c7a3e7d3147bbb9bfead7df14ef87.bindPopup(popup_fe938b2406b24cd692000329de86f92c)
+        ;
+
+        
+    
+    
+            var circle_marker_66b4483d94f84abfbfca50c1b1ec2405 = L.circleMarker(
+                [12.1360374, -61.6904045],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_d90d9d82f3ee45e887526de08cb53c9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53a81125f528464ea2b74fd71e0867bc = $(`<div id="html_53a81125f528464ea2b74fd71e0867bc" style="width: 100.0%; height: 100.0%;">Country : Grenada<br>                     # of Suicides: 2.1322580645161286<br></div>`)[0];
+            popup_d90d9d82f3ee45e887526de08cb53c9f.setContent(html_53a81125f528464ea2b74fd71e0867bc);
+        
+
+        circle_marker_66b4483d94f84abfbfca50c1b1ec2405.bindPopup(popup_d90d9d82f3ee45e887526de08cb53c9f)
+        ;
+
+        
+    
+    
+            var circle_marker_0aa4b850a43f4cd8ac3939d1943de5a4 = L.circleMarker(
+                [15.6356088, -89.8988087],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f6868039b67a4b01b20b42a5337df6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e982f33d28b941049d2cb10427f6b59c = $(`<div id="html_e982f33d28b941049d2cb10427f6b59c" style="width: 100.0%; height: 100.0%;">Country : Guatemala<br>                     # of Suicides: 3.1852777777777765<br></div>`)[0];
+            popup_f6868039b67a4b01b20b42a5337df6d2.setContent(html_e982f33d28b941049d2cb10427f6b59c);
+        
+
+        circle_marker_0aa4b850a43f4cd8ac3939d1943de5a4.bindPopup(popup_f6868039b67a4b01b20b42a5337df6d2)
+        ;
+
+        
+    
+    
+            var circle_marker_df6ecb9b7e3a4ac1b1d0d29a23491f9e = L.circleMarker(
+                [4.8417097, -58.6416891],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_28f798b4a8264341b43bf96442baa57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bc973b728f3489180cbc3b1620e3f76 = $(`<div id="html_0bc973b728f3489180cbc3b1620e3f76" style="width: 100.0%; height: 100.0%;">Country : Guyana<br>                     # of Suicides: 22.186399999999995<br></div>`)[0];
+            popup_28f798b4a8264341b43bf96442baa57a.setContent(html_0bc973b728f3489180cbc3b1620e3f76);
+        
+
+        circle_marker_df6ecb9b7e3a4ac1b1d0d29a23491f9e.bindPopup(popup_28f798b4a8264341b43bf96442baa57a)
+        ;
+
+        
+    
+    
+            var circle_marker_de0ab3a5a6384d8c98bdbef797136bd4 = L.circleMarker(
+                [47.1817585, 19.5060937],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_11aeea86f28347fa8d9e36f71b376c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0e1daa02add4ce5ae4ed710b0e00c6a = $(`<div id="html_f0e1daa02add4ce5ae4ed710b0e00c6a" style="width: 100.0%; height: 100.0%;">Country : Hungary<br>                     # of Suicides: 32.76151612903224<br></div>`)[0];
+            popup_11aeea86f28347fa8d9e36f71b376c0c.setContent(html_f0e1daa02add4ce5ae4ed710b0e00c6a);
+        
+
+        circle_marker_de0ab3a5a6384d8c98bdbef797136bd4.bindPopup(popup_11aeea86f28347fa8d9e36f71b376c0c)
+        ;
+
+        
+    
+    
+            var circle_marker_b8c1c53017a746539676e2dfc70017cc = L.circleMarker(
+                [64.9841821, -18.1059013],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_fba02be825b44d3082a0cefd0294626d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a57b7f952f454dbd90db8aa1e0a55c45 = $(`<div id="html_a57b7f952f454dbd90db8aa1e0a55c45" style="width: 100.0%; height: 100.0%;">Country : Iceland<br>                     # of Suicides: 12.800366492146596<br></div>`)[0];
+            popup_fba02be825b44d3082a0cefd0294626d.setContent(html_a57b7f952f454dbd90db8aa1e0a55c45);
+        
+
+        circle_marker_b8c1c53017a746539676e2dfc70017cc.bindPopup(popup_fba02be825b44d3082a0cefd0294626d)
+        ;
+
+        
+    
+    
+            var circle_marker_3687b6c3318b4641a50e1543f2c0208a = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_38ea5fbd08f94b89b8b15e3ac6088815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42ce494839d24cfb9aa8077446e43a76 = $(`<div id="html_42ce494839d24cfb9aa8077446e43a76" style="width: 100.0%; height: 100.0%;">Country : Ireland<br>                     # of Suicides: 10.78258333333333<br></div>`)[0];
+            popup_38ea5fbd08f94b89b8b15e3ac6088815.setContent(html_42ce494839d24cfb9aa8077446e43a76);
+        
+
+        circle_marker_3687b6c3318b4641a50e1543f2c0208a.bindPopup(popup_38ea5fbd08f94b89b8b15e3ac6088815)
+        ;
+
+        
+    
+    
+            var circle_marker_6dffd12b7d1848d3bf54310cc3844cbf = L.circleMarker(
+                [31.5313113, 34.8667654],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_1118fed09b754f9498f9e102ac5b277e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c4dcaff10948879e15c5b58e316f11 = $(`<div id="html_f6c4dcaff10948879e15c5b58e316f11" style="width: 100.0%; height: 100.0%;">Country : Israel<br>                     # of Suicides: 8.951532258064514<br></div>`)[0];
+            popup_1118fed09b754f9498f9e102ac5b277e.setContent(html_f6c4dcaff10948879e15c5b58e316f11);
+        
+
+        circle_marker_6dffd12b7d1848d3bf54310cc3844cbf.bindPopup(popup_1118fed09b754f9498f9e102ac5b277e)
+        ;
+
+        
+    
+    
+            var circle_marker_e483ce7f3d0148efa5e66f96ca40adb8 = L.circleMarker(
+                [42.6384261, 12.674297],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2fcd9395ee3c4d4ea73ff21aa313a0b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c7e8963e3a4f8480378d9c3dbc91d2 = $(`<div id="html_f9c7e8963e3a4f8480378d9c3dbc91d2" style="width: 100.0%; height: 100.0%;">Country : Italy<br>                     # of Suicides: 8.518467741935483<br></div>`)[0];
+            popup_2fcd9395ee3c4d4ea73ff21aa313a0b5.setContent(html_f9c7e8963e3a4f8480378d9c3dbc91d2);
+        
+
+        circle_marker_e483ce7f3d0148efa5e66f96ca40adb8.bindPopup(popup_2fcd9395ee3c4d4ea73ff21aa313a0b5)
+        ;
+
+        
+    
+    
+            var circle_marker_c53f7057b1c844b7891b6cfd25b6cef8 = L.circleMarker(
+                [18.1152958, -77.1598454610168],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_5db4df45d57142b3b714701deb7d92cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc70bef7243e40c6a56e88f99418aee6 = $(`<div id="html_fc70bef7243e40c6a56e88f99418aee6" style="width: 100.0%; height: 100.0%;">Country : Jamaica<br>                     # of Suicides: 0.5217647058823529<br></div>`)[0];
+            popup_5db4df45d57142b3b714701deb7d92cb.setContent(html_fc70bef7243e40c6a56e88f99418aee6);
+        
+
+        circle_marker_c53f7057b1c844b7891b6cfd25b6cef8.bindPopup(popup_5db4df45d57142b3b714701deb7d92cb)
+        ;
+
+        
+    
+    
+            var circle_marker_caa009e9cb1143e0b463e4f0776c1041 = L.circleMarker(
+                [36.5748441, 139.2394179],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_9ece8442cfc94d4b8f9b1abcda82006c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97f9fbaad03749469c71499e5e4cb3db = $(`<div id="html_97f9fbaad03749469c71499e5e4cb3db" style="width: 100.0%; height: 100.0%;">Country : Japan<br>                     # of Suicides: 21.57319892473118<br></div>`)[0];
+            popup_9ece8442cfc94d4b8f9b1abcda82006c.setContent(html_97f9fbaad03749469c71499e5e4cb3db);
+        
+
+        circle_marker_caa009e9cb1143e0b463e4f0776c1041.bindPopup(popup_9ece8442cfc94d4b8f9b1abcda82006c)
+        ;
+
+        
+    
+    
+            var circle_marker_a174e1f67a424571ae7035bc48a660f5 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2808b85c5053422f87996f46982635d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6849f64af47d4acf808825231af05834 = $(`<div id="html_6849f64af47d4acf808825231af05834" style="width: 100.0%; height: 100.0%;">Country : Kazakhstan<br>                     # of Suicides: 30.511282051282034<br></div>`)[0];
+            popup_2808b85c5053422f87996f46982635d4.setContent(html_6849f64af47d4acf808825231af05834);
+        
+
+        circle_marker_a174e1f67a424571ae7035bc48a660f5.bindPopup(popup_2808b85c5053422f87996f46982635d4)
+        ;
+
+        
+    
+    
+            var circle_marker_5401f7005aeb49ef882b700e8fb76c50 = L.circleMarker(
+                [0.306, 173.664834025],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_70252fb5c34b4a0d89c7c750e146c129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10621fc331904a62a680265cbde51e53 = $(`<div id="html_10621fc331904a62a680265cbde51e53" style="width: 100.0%; height: 100.0%;">Country : Kiribati<br>                     # of Suicides: 6.65537878787879<br></div>`)[0];
+            popup_70252fb5c34b4a0d89c7c750e146c129.setContent(html_10621fc331904a62a680265cbde51e53);
+        
+
+        circle_marker_5401f7005aeb49ef882b700e8fb76c50.bindPopup(popup_70252fb5c34b4a0d89c7c750e146c129)
+        ;
+
+        
+    
+    
+            var circle_marker_711432ca0eca45b995cfe0e1d8cd2d15 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_40e08240c80e4a4c83c6e057aebc5146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8452ce8ba00e409eab81f7b615d188f8 = $(`<div id="html_8452ce8ba00e409eab81f7b615d188f8" style="width: 100.0%; height: 100.0%;">Country : Kuwait<br>                     # of Suicides: 1.1864333333333337<br></div>`)[0];
+            popup_40e08240c80e4a4c83c6e057aebc5146.setContent(html_8452ce8ba00e409eab81f7b615d188f8);
+        
+
+        circle_marker_711432ca0eca45b995cfe0e1d8cd2d15.bindPopup(popup_40e08240c80e4a4c83c6e057aebc5146)
+        ;
+
+        
+    
+    
+            var circle_marker_7be0b9e3984947daa6f2bffdca55dea6 = L.circleMarker(
+                [41.5089324, 74.724091],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_68c59532fc3840d7951d253f4c94ffb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16cee3586a2c457f8f7ae57d886193da = $(`<div id="html_16cee3586a2c457f8f7ae57d886193da" style="width: 100.0%; height: 100.0%;">Country : Kyrgyzstan<br>                     # of Suicides: 14.286217948717962<br></div>`)[0];
+            popup_68c59532fc3840d7951d253f4c94ffb6.setContent(html_16cee3586a2c457f8f7ae57d886193da);
+        
+
+        circle_marker_7be0b9e3984947daa6f2bffdca55dea6.bindPopup(popup_68c59532fc3840d7951d253f4c94ffb6)
+        ;
+
+        
+    
+    
+            var circle_marker_8be06639f0fd4303b786caad9b4602b7 = L.circleMarker(
+                [56.8406494, 24.7537645],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_3e9c9a9c6d8e43df9863093ad0750d8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73d3b327de8b4aa4b6962577b8ac7e64 = $(`<div id="html_73d3b327de8b4aa4b6962577b8ac7e64" style="width: 100.0%; height: 100.0%;">Country : Latvia<br>                     # of Suicides: 29.259325396825414<br></div>`)[0];
+            popup_3e9c9a9c6d8e43df9863093ad0750d8c.setContent(html_73d3b327de8b4aa4b6962577b8ac7e64);
+        
+
+        circle_marker_8be06639f0fd4303b786caad9b4602b7.bindPopup(popup_3e9c9a9c6d8e43df9863093ad0750d8c)
+        ;
+
+        
+    
+    
+            var circle_marker_effb4d6dbc2648aab16f6085888a1eff = L.circleMarker(
+                [55.3500003, 23.7499997],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_12d6b73be66a4337a3246a69587e9106 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_372ea1cb8f3c4af1b07f74e042211240 = $(`<div id="html_372ea1cb8f3c4af1b07f74e042211240" style="width: 100.0%; height: 100.0%;">Country : Lithuania<br>                     # of Suicides: 40.41557251908396<br></div>`)[0];
+            popup_12d6b73be66a4337a3246a69587e9106.setContent(html_372ea1cb8f3c4af1b07f74e042211240);
+        
+
+        circle_marker_effb4d6dbc2648aab16f6085888a1eff.bindPopup(popup_12d6b73be66a4337a3246a69587e9106)
+        ;
+
+        
+    
+    
+            var circle_marker_32eb056222bc4be5adda1f9da614e757 = L.circleMarker(
+                [49.8158683, 6.1296751],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_dd8b04e8ba344b6ca3b1ba001afecf13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3701d1aa72164d08ac88793c3578d214 = $(`<div id="html_3701d1aa72164d08ac88793c3578d214" style="width: 100.0%; height: 100.0%;">Country : Luxembourg<br>                     # of Suicides: 16.549892473118266<br></div>`)[0];
+            popup_dd8b04e8ba344b6ca3b1ba001afecf13.setContent(html_3701d1aa72164d08ac88793c3578d214);
+        
+
+        circle_marker_32eb056222bc4be5adda1f9da614e757.bindPopup(popup_dd8b04e8ba344b6ca3b1ba001afecf13)
+        ;
+
+        
+    
+    
+            var circle_marker_8041415264104ac2b063825b95bde94b = L.circleMarker(
+                [22.1757605, 113.5514142],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f7a13e6807d04ba7b394e3a55e22d80e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_991c4dd30d6d4e7fb7248de90cdde5b1 = $(`<div id="html_991c4dd30d6d4e7fb7248de90cdde5b1" style="width: 100.0%; height: 100.0%;">Country : Macau<br>                     # of Suicides: 14.31166666666667<br></div>`)[0];
+            popup_f7a13e6807d04ba7b394e3a55e22d80e.setContent(html_991c4dd30d6d4e7fb7248de90cdde5b1);
+        
+
+        circle_marker_8041415264104ac2b063825b95bde94b.bindPopup(popup_f7a13e6807d04ba7b394e3a55e22d80e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf3a293eb689460ba0c99e2fa3d67c54 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_e2e3d42a7ae641dbbefd0dfaec273889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0dec9ceea84b41afd9f9a84528fcec = $(`<div id="html_ca0dec9ceea84b41afd9f9a84528fcec" style="width: 100.0%; height: 100.0%;">Country : Maldives<br>                     # of Suicides: 1.3673333333333335<br></div>`)[0];
+            popup_e2e3d42a7ae641dbbefd0dfaec273889.setContent(html_ca0dec9ceea84b41afd9f9a84528fcec);
+        
+
+        circle_marker_cf3a293eb689460ba0c99e2fa3d67c54.bindPopup(popup_e2e3d42a7ae641dbbefd0dfaec273889)
+        ;
+
+        
+    
+    
+            var circle_marker_b5bc26dfcce145e8b4f82167327aaac4 = L.circleMarker(
+                [35.8885993, 14.4476911],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_a3977a7d15704a76a55f3bdb68c7e9e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e00cc2b1a9984d09aff59638a985e259 = $(`<div id="html_e00cc2b1a9984d09aff59638a985e259" style="width: 100.0%; height: 100.0%;">Country : Malta<br>                     # of Suicides: 5.032284946236558<br></div>`)[0];
+            popup_a3977a7d15704a76a55f3bdb68c7e9e3.setContent(html_e00cc2b1a9984d09aff59638a985e259);
+        
+
+        circle_marker_b5bc26dfcce145e8b4f82167327aaac4.bindPopup(popup_a3977a7d15704a76a55f3bdb68c7e9e3)
+        ;
+
+        
+    
+    
+            var circle_marker_7dea329e5e9e4f37b4de36b934128d99 = L.circleMarker(
+                [-20.2759451, 57.5703566],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_97bd3f1e21cb4082859a3b329ddc82ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5f33511a4441468417dc2f9dd804c2 = $(`<div id="html_0d5f33511a4441468417dc2f9dd804c2" style="width: 100.0%; height: 100.0%;">Country : Mauritius<br>                     # of Suicides: 11.687382198952875<br></div>`)[0];
+            popup_97bd3f1e21cb4082859a3b329ddc82ea.setContent(html_0d5f33511a4441468417dc2f9dd804c2);
+        
+
+        circle_marker_7dea329e5e9e4f37b4de36b934128d99.bindPopup(popup_97bd3f1e21cb4082859a3b329ddc82ea)
+        ;
+
+        
+    
+    
+            var circle_marker_e5a6355b07ad4118973da3b783005900 = L.circleMarker(
+                [19.4326296, -99.1331785],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_cd00ae33911e43a196de48ee6a631a59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_834b3eda721f435d8a0440d40bd8d7f4 = $(`<div id="html_834b3eda721f435d8a0440d40bd8d7f4" style="width: 100.0%; height: 100.0%;">Country : Mexico<br>                     # of Suicides: 4.7075<br></div>`)[0];
+            popup_cd00ae33911e43a196de48ee6a631a59.setContent(html_834b3eda721f435d8a0440d40bd8d7f4);
+        
+
+        circle_marker_e5a6355b07ad4118973da3b783005900.bindPopup(popup_cd00ae33911e43a196de48ee6a631a59)
+        ;
+
+        
+    
+    
+            var circle_marker_c0962970eb6b402783b9c07c684f736e = L.circleMarker(
+                [46.8250388, 103.8499736],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_e93517542c604e95a547072d8bb2dc0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_559aa5a63d5340b4a28517fdea820388 = $(`<div id="html_559aa5a63d5340b4a28517fdea820388" style="width: 100.0%; height: 100.0%;">Country : Mongolia<br>                     # of Suicides: 18.439<br></div>`)[0];
+            popup_e93517542c604e95a547072d8bb2dc0a.setContent(html_559aa5a63d5340b4a28517fdea820388);
+        
+
+        circle_marker_c0962970eb6b402783b9c07c684f736e.bindPopup(popup_e93517542c604e95a547072d8bb2dc0a)
+        ;
+
+        
+    
+    
+            var circle_marker_29636cfd4f7f490183def6dd14c9ad73 = L.circleMarker(
+                [42.9868853, 19.5180992],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_9f05a19923e74e5eac52a3b09304e17b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d5e60329d2942b3a4b511036a8e97a3 = $(`<div id="html_2d5e60329d2942b3a4b511036a8e97a3" style="width: 100.0%; height: 100.0%;">Country : Montenegro<br>                     # of Suicides: 9.950249999999999<br></div>`)[0];
+            popup_9f05a19923e74e5eac52a3b09304e17b.setContent(html_2d5e60329d2942b3a4b511036a8e97a3);
+        
+
+        circle_marker_29636cfd4f7f490183def6dd14c9ad73.bindPopup(popup_9f05a19923e74e5eac52a3b09304e17b)
+        ;
+
+        
+    
+    
+            var circle_marker_5f1edc36937248928c9c211e83ab2ee8 = L.circleMarker(
+                [52.5001698, 5.7480821],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_d2a471890c0e465e877f71f4d3c66ac3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_660b4a5e286948fe8cc4bdd760b1d45d = $(`<div id="html_660b4a5e286948fe8cc4bdd760b1d45d" style="width: 100.0%; height: 100.0%;">Country : Netherlands<br>                     # of Suicides: 10.645340314136119<br></div>`)[0];
+            popup_d2a471890c0e465e877f71f4d3c66ac3.setContent(html_660b4a5e286948fe8cc4bdd760b1d45d);
+        
+
+        circle_marker_5f1edc36937248928c9c211e83ab2ee8.bindPopup(popup_d2a471890c0e465e877f71f4d3c66ac3)
+        ;
+
+        
+    
+    
+            var circle_marker_b549a589d7564231989e96ef0cc1d495 = L.circleMarker(
+                [-41.5000831, 172.8344077],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_fa37437f13164dc5bcade69c4a48240f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f76de1f534c94bf2aea6ae4199625fe3 = $(`<div id="html_f76de1f534c94bf2aea6ae4199625fe3" style="width: 100.0%; height: 100.0%;">Country : New Zealand<br>                     # of Suicides: 14.39172413793105<br></div>`)[0];
+            popup_fa37437f13164dc5bcade69c4a48240f.setContent(html_f76de1f534c94bf2aea6ae4199625fe3);
+        
+
+        circle_marker_b549a589d7564231989e96ef0cc1d495.bindPopup(popup_fa37437f13164dc5bcade69c4a48240f)
+        ;
+
+        
+    
+    
+            var circle_marker_12bfdcddff89457484ba9dc2f01bf1d5 = L.circleMarker(
+                [12.6090157, -85.2936911],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_e499af8b855646cea4df1a55468cf421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_089d756911ce416d877d4a934589ccce = $(`<div id="html_089d756911ce416d877d4a934589ccce" style="width: 100.0%; height: 100.0%;">Country : Nicaragua<br>                     # of Suicides: 6.566944444444445<br></div>`)[0];
+            popup_e499af8b855646cea4df1a55468cf421.setContent(html_089d756911ce416d877d4a934589ccce);
+        
+
+        circle_marker_12bfdcddff89457484ba9dc2f01bf1d5.bindPopup(popup_e499af8b855646cea4df1a55468cf421)
+        ;
+
+        
+    
+    
+            var circle_marker_b802217381c74e96af1ae1d08ae7b3f9 = L.circleMarker(
+                [64.5731537, 11.52803643954819],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6b6b7ff18d3c4d3098e1057bd0b7a626 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84d9e70991824549b66962d6965ce0ce = $(`<div id="html_84d9e70991824549b66962d6965ce0ce" style="width: 100.0%; height: 100.0%;">Country : Norway<br>                     # of Suicides: 12.941000000000003<br></div>`)[0];
+            popup_6b6b7ff18d3c4d3098e1057bd0b7a626.setContent(html_84d9e70991824549b66962d6965ce0ce);
+        
+
+        circle_marker_b802217381c74e96af1ae1d08ae7b3f9.bindPopup(popup_6b6b7ff18d3c4d3098e1057bd0b7a626)
+        ;
+
+        
+    
+    
+            var circle_marker_4fadcea2e3b3490bb5dc1e2d22b17c70 = L.circleMarker(
+                [21.0000287, 57.0036901],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2ef26d675b934f0b85f6044d0784f7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28651ca1549e4e72b8f4970cb7ca6ae9 = $(`<div id="html_28651ca1549e4e72b8f4970cb7ca6ae9" style="width: 100.0%; height: 100.0%;">Country : Oman<br>                     # of Suicides: 0.7361111111111112<br></div>`)[0];
+            popup_2ef26d675b934f0b85f6044d0784f7eb.setContent(html_28651ca1549e4e72b8f4970cb7ca6ae9);
+        
+
+        circle_marker_4fadcea2e3b3490bb5dc1e2d22b17c70.bindPopup(popup_2ef26d675b934f0b85f6044d0784f7eb)
+        ;
+
+        
+    
+    
+            var circle_marker_8f82a89723f1427eb6f62f3a94f941b8 = L.circleMarker(
+                [8.559559, -81.1308434],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_a026e91140c34cda98db8de10edadeae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_703a7c1658f94149a2a74b5e26f1210b = $(`<div id="html_703a7c1658f94149a2a74b5e26f1210b" style="width: 100.0%; height: 100.0%;">Country : Panama<br>                     # of Suicides: 5.81353333333333<br></div>`)[0];
+            popup_a026e91140c34cda98db8de10edadeae.setContent(html_703a7c1658f94149a2a74b5e26f1210b);
+        
+
+        circle_marker_8f82a89723f1427eb6f62f3a94f941b8.bindPopup(popup_a026e91140c34cda98db8de10edadeae)
+        ;
+
+        
+    
+    
+            var circle_marker_4b9981581f5e477c8a0c111ff8a1230c = L.circleMarker(
+                [-23.3165935, -58.1693445],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_c78598dcb56d437c8618836347febf1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51f5f3c78b454b55a652513cba236edb = $(`<div id="html_51f5f3c78b454b55a652513cba236edb" style="width: 100.0%; height: 100.0%;">Country : Paraguay<br>                     # of Suicides: 4.217191358024693<br></div>`)[0];
+            popup_c78598dcb56d437c8618836347febf1e.setContent(html_51f5f3c78b454b55a652513cba236edb);
+        
+
+        circle_marker_4b9981581f5e477c8a0c111ff8a1230c.bindPopup(popup_c78598dcb56d437c8618836347febf1e)
+        ;
+
+        
+    
+    
+            var circle_marker_57768610b5784f339be31f31869c5d80 = L.circleMarker(
+                [12.7503486, 122.7312101],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_dabcc09640fe4ed293934a2064e1bfab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0328c982253a44be9b0166192fc4b4e1 = $(`<div id="html_0328c982253a44be9b0166192fc4b4e1" style="width: 100.0%; height: 100.0%;">Country : Philippines<br>                     # of Suicides: 2.421277777777778<br></div>`)[0];
+            popup_dabcc09640fe4ed293934a2064e1bfab.setContent(html_0328c982253a44be9b0166192fc4b4e1);
+        
+
+        circle_marker_57768610b5784f339be31f31869c5d80.bindPopup(popup_dabcc09640fe4ed293934a2064e1bfab)
+        ;
+
+        
+    
+    
+            var circle_marker_09a562141da244c0b93d5eb5bdfd7bb3 = L.circleMarker(
+                [52.215933, 19.134422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_bb7558df98a648d48c71195aaa3f087c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8d5e1729d1842d6b48a660943f08afd = $(`<div id="html_c8d5e1729d1842d6b48a660943f08afd" style="width: 100.0%; height: 100.0%;">Country : Poland<br>                     # of Suicides: 15.269513888888895<br></div>`)[0];
+            popup_bb7558df98a648d48c71195aaa3f087c.setContent(html_c8d5e1729d1842d6b48a660943f08afd);
+        
+
+        circle_marker_09a562141da244c0b93d5eb5bdfd7bb3.bindPopup(popup_bb7558df98a648d48c71195aaa3f087c)
+        ;
+
+        
+    
+    
+            var circle_marker_0c6526d919584e50a26b5a280c549747 = L.circleMarker(
+                [40.0332629, -7.8896263],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2f50424aee3f4314b4a60f424601c0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80b97101e875498bbe6156633a5e182b = $(`<div id="html_80b97101e875498bbe6156633a5e182b" style="width: 100.0%; height: 100.0%;">Country : Portugal<br>                     # of Suicides: 11.33753086419753<br></div>`)[0];
+            popup_2f50424aee3f4314b4a60f424601c0b8.setContent(html_80b97101e875498bbe6156633a5e182b);
+        
+
+        circle_marker_0c6526d919584e50a26b5a280c549747.bindPopup(popup_2f50424aee3f4314b4a60f424601c0b8)
+        ;
+
+        
+    
+    
+            var circle_marker_035d2d8aa4c34db0afb55ea664d65639 = L.circleMarker(
+                [18.2214149, -66.41328179513847],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_beab9f07915744228dc776908ff3f178 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5688326050bc484d8a2b1482abe4378f = $(`<div id="html_5688326050bc484d8a2b1482abe4378f" style="width: 100.0%; height: 100.0%;">Country : Puerto Rico<br>                     # of Suicides: 10.186236559139779<br></div>`)[0];
+            popup_beab9f07915744228dc776908ff3f178.setContent(html_5688326050bc484d8a2b1482abe4378f);
+        
+
+        circle_marker_035d2d8aa4c34db0afb55ea664d65639.bindPopup(popup_beab9f07915744228dc776908ff3f178)
+        ;
+
+        
+    
+    
+            var circle_marker_2d16077667554e3b8e13192c52f85a88 = L.circleMarker(
+                [25.3336984, 51.2295295],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_a16dd09401504f9a945c903a41c4d0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87107ba87363493981a6251f2d203acd = $(`<div id="html_87107ba87363493981a6251f2d203acd" style="width: 100.0%; height: 100.0%;">Country : Qatar<br>                     # of Suicides: 1.7873595505617967<br></div>`)[0];
+            popup_a16dd09401504f9a945c903a41c4d0b0.setContent(html_87107ba87363493981a6251f2d203acd);
+        
+
+        circle_marker_2d16077667554e3b8e13192c52f85a88.bindPopup(popup_a16dd09401504f9a945c903a41c4d0b0)
+        ;
+
+        
+    
+    
+            var circle_marker_2dfbb049ffb049a693e558d04c1065dd = L.circleMarker(
+                [36.638392, 127.6961188],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_e48efbca43c944b1ae084bbe0832c941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fadf5c8e7ed04b719886e1ade67a44a6 = $(`<div id="html_fadf5c8e7ed04b719886e1ade67a44a6" style="width: 100.0%; height: 100.0%;">Country : Republic of Korea<br>                     # of Suicides: 25.13561827956988<br></div>`)[0];
+            popup_e48efbca43c944b1ae084bbe0832c941.setContent(html_fadf5c8e7ed04b719886e1ade67a44a6);
+        
+
+        circle_marker_2dfbb049ffb049a693e558d04c1065dd.bindPopup(popup_e48efbca43c944b1ae084bbe0832c941)
+        ;
+
+        
+    
+    
+            var circle_marker_4f34c3d66041484fbab5dbf6e8076c43 = L.circleMarker(
+                [45.9852129, 24.6859225],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_bfc4a5fb774c4d50ab636c66c430b328 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_889ba8699a9d4f6d904398ae66702cf5 = $(`<div id="html_889ba8699a9d4f6d904398ae66702cf5" style="width: 100.0%; height: 100.0%;">Country : Romania<br>                     # of Suicides: 12.489670658682638<br></div>`)[0];
+            popup_bfc4a5fb774c4d50ab636c66c430b328.setContent(html_889ba8699a9d4f6d904398ae66702cf5);
+        
+
+        circle_marker_4f34c3d66041484fbab5dbf6e8076c43.bindPopup(popup_bfc4a5fb774c4d50ab636c66c430b328)
+        ;
+
+        
+    
+    
+            var circle_marker_9ba985676f1d4d709b3c883e78b37868 = L.circleMarker(
+                [64.6863136, 97.7453061],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_ecc06f8ad7e34023891b72992c6f470c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_346521e9fdfb4ba095e30feb9de28eb2 = $(`<div id="html_346521e9fdfb4ba095e30feb9de28eb2" style="width: 100.0%; height: 100.0%;">Country : Russian Federation<br>                     # of Suicides: 34.8923765432099<br></div>`)[0];
+            popup_ecc06f8ad7e34023891b72992c6f470c.setContent(html_346521e9fdfb4ba095e30feb9de28eb2);
+        
+
+        circle_marker_9ba985676f1d4d709b3c883e78b37868.bindPopup(popup_ecc06f8ad7e34023891b72992c6f470c)
+        ;
+
+        
+    
+    
+            var circle_marker_54765d3c2ce3472db4335bbe8338c106 = L.circleMarker(
+                [17.250512, -62.6725973],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_88e6a57950a34659a548b57bb31ac46c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af5337de375e43e08cc5658a6e3980f8 = $(`<div id="html_af5337de375e43e08cc5658a6e3980f8" style="width: 100.0%; height: 100.0%;">Country : Saint Kitts and Nevis<br>                     # of Suicides: 0.0<br></div>`)[0];
+            popup_88e6a57950a34659a548b57bb31ac46c.setContent(html_af5337de375e43e08cc5658a6e3980f8);
+        
+
+        circle_marker_54765d3c2ce3472db4335bbe8338c106.bindPopup(popup_88e6a57950a34659a548b57bb31ac46c)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1be20d5804480d9792513701dad131 = L.circleMarker(
+                [13.8250489, -60.975036],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_46d28ecc78134c63819f8f106d1be8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb686f1d6ade4fa1b2b500128309c9ac = $(`<div id="html_fb686f1d6ade4fa1b2b500128309c9ac" style="width: 100.0%; height: 100.0%;">Country : Saint Lucia<br>                     # of Suicides: 7.202738095238099<br></div>`)[0];
+            popup_46d28ecc78134c63819f8f106d1be8c9.setContent(html_fb686f1d6ade4fa1b2b500128309c9ac);
+        
+
+        circle_marker_7b1be20d5804480d9792513701dad131.bindPopup(popup_46d28ecc78134c63819f8f106d1be8c9)
+        ;
+
+        
+    
+    
+            var circle_marker_d0a0220a00694f6b92c5e6772d7b5c17 = L.circleMarker(
+                [12.90447, -61.2765569],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6761a5df784848d4bb7ceee28e7ecb42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9f55ded5db14df8aa985c98ad1f39f3 = $(`<div id="html_d9f55ded5db14df8aa985c98ad1f39f3" style="width: 100.0%; height: 100.0%;">Country : Saint Vincent and Grenadines<br>                     # of Suicides: 5.7554333333333325<br></div>`)[0];
+            popup_6761a5df784848d4bb7ceee28e7ecb42.setContent(html_d9f55ded5db14df8aa985c98ad1f39f3);
+        
+
+        circle_marker_d0a0220a00694f6b92c5e6772d7b5c17.bindPopup(popup_6761a5df784848d4bb7ceee28e7ecb42)
+        ;
+
+        
+    
+    
+            var circle_marker_14167ab8debf4d858d28353529149b73 = L.circleMarker(
+                [43.9458623, 12.458306],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_554988c77af746cb9a3c5f885a52c2bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ebc0c5e89fa4b80a4060a56e025bbbf = $(`<div id="html_1ebc0c5e89fa4b80a4060a56e025bbbf" style="width: 100.0%; height: 100.0%;">Country : San Marino<br>                     # of Suicides: 4.045<br></div>`)[0];
+            popup_554988c77af746cb9a3c5f885a52c2bb.setContent(html_1ebc0c5e89fa4b80a4060a56e025bbbf);
+        
+
+        circle_marker_14167ab8debf4d858d28353529149b73.bindPopup(popup_554988c77af746cb9a3c5f885a52c2bb)
+        ;
+
+        
+    
+    
+            var circle_marker_826c4f6c89b349fdb4b9a4324aa2e735 = L.circleMarker(
+                [44.024322850000004, 21.07657433209902],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f3144a74734c4737aa67abf64e18fc3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e93a310de48644d689fbb20f818aae04 = $(`<div id="html_e93a310de48644d689fbb20f818aae04" style="width: 100.0%; height: 100.0%;">Country : Serbia<br>                     # of Suicides: 22.164120370370373<br></div>`)[0];
+            popup_f3144a74734c4737aa67abf64e18fc3b.setContent(html_e93a310de48644d689fbb20f818aae04);
+        
+
+        circle_marker_826c4f6c89b349fdb4b9a4324aa2e735.bindPopup(popup_f3144a74734c4737aa67abf64e18fc3b)
+        ;
+
+        
+    
+    
+            var circle_marker_75e08cabb1784fb4845aac936540286d = L.circleMarker(
+                [-4.6574977, 55.4540146],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_38cbbc932d034fc59f7b7426c61fe60b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30fba7cfd1af462287fb027f2e7e254b = $(`<div id="html_30fba7cfd1af462287fb027f2e7e254b" style="width: 100.0%; height: 100.0%;">Country : Seychelles<br>                     # of Suicides: 7.480092592592594<br></div>`)[0];
+            popup_38cbbc932d034fc59f7b7426c61fe60b.setContent(html_30fba7cfd1af462287fb027f2e7e254b);
+        
+
+        circle_marker_75e08cabb1784fb4845aac936540286d.bindPopup(popup_38cbbc932d034fc59f7b7426c61fe60b)
+        ;
+
+        
+    
+    
+            var circle_marker_ae2656b399944ca583c8294282b9f901 = L.circleMarker(
+                [1.357107, 103.8194992],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_f43de71f5b2342108d13a2420057d53b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1099abef884845f4ba3efbfc7cfeeb25 = $(`<div id="html_1099abef884845f4ba3efbfc7cfeeb25" style="width: 100.0%; height: 100.0%;">Country : Singapore<br>                     # of Suicides: 17.045645161290317<br></div>`)[0];
+            popup_f43de71f5b2342108d13a2420057d53b.setContent(html_1099abef884845f4ba3efbfc7cfeeb25);
+        
+
+        circle_marker_ae2656b399944ca583c8294282b9f901.bindPopup(popup_f43de71f5b2342108d13a2420057d53b)
+        ;
+
+        
+    
+    
+            var circle_marker_ec7305101e7a43ceb97801846728f529 = L.circleMarker(
+                [48.7411522, 19.4528646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_67f6f05945314cc1bad4a9614657f821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09aa85bdb38424a9e629abfe0e3082f = $(`<div id="html_e09aa85bdb38424a9e629abfe0e3082f" style="width: 100.0%; height: 100.0%;">Country : Slovakia<br>                     # of Suicides: 12.568787878787877<br></div>`)[0];
+            popup_67f6f05945314cc1bad4a9614657f821.setContent(html_e09aa85bdb38424a9e629abfe0e3082f);
+        
+
+        circle_marker_ec7305101e7a43ceb97801846728f529.bindPopup(popup_67f6f05945314cc1bad4a9614657f821)
+        ;
+
+        
+    
+    
+            var circle_marker_31ee19bfc79f4d058c223e1ae2532244 = L.circleMarker(
+                [45.8133113, 14.4808369],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_9e58adfd0435482dafd54d2dc6b23b61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_636d14651ade4905a2b9c3cffc8f1316 = $(`<div id="html_636d14651ade4905a2b9c3cffc8f1316" style="width: 100.0%; height: 100.0%;">Country : Slovenia<br>                     # of Suicides: 27.82785714285713<br></div>`)[0];
+            popup_9e58adfd0435482dafd54d2dc6b23b61.setContent(html_636d14651ade4905a2b9c3cffc8f1316);
+        
+
+        circle_marker_31ee19bfc79f4d058c223e1ae2532244.bindPopup(popup_9e58adfd0435482dafd54d2dc6b23b61)
+        ;
+
+        
+    
+    
+            var circle_marker_a03049376fe34162a2863102714cdee9 = L.circleMarker(
+                [-28.8166236, 24.991639],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_13b9f14c1fc54672ace882c6846931cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16a54a14129a464aa4782cb397862254 = $(`<div id="html_16a54a14129a464aa4782cb397862254" style="width: 100.0%; height: 100.0%;">Country : South Africa<br>                     # of Suicides: 0.9645416666666666<br></div>`)[0];
+            popup_13b9f14c1fc54672ace882c6846931cd.setContent(html_16a54a14129a464aa4782cb397862254);
+        
+
+        circle_marker_a03049376fe34162a2863102714cdee9.bindPopup(popup_13b9f14c1fc54672ace882c6846931cd)
+        ;
+
+        
+    
+    
+            var circle_marker_872ddd7f1bdc43c0b7d0f8c44460778e = L.circleMarker(
+                [39.3262345, -4.8380649],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_6d7ea62b8d6e4bf79579d31a1a2f6f89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d55c1df129e48cf96029330d494b1c3 = $(`<div id="html_2d55c1df129e48cf96029330d494b1c3" style="width: 100.0%; height: 100.0%;">Country : Spain<br>                     # of Suicides: 9.432956989247316<br></div>`)[0];
+            popup_6d7ea62b8d6e4bf79579d31a1a2f6f89.setContent(html_2d55c1df129e48cf96029330d494b1c3);
+        
+
+        circle_marker_872ddd7f1bdc43c0b7d0f8c44460778e.bindPopup(popup_6d7ea62b8d6e4bf79579d31a1a2f6f89)
+        ;
+
+        
+    
+    
+            var circle_marker_a3d9eed9c8694cdfab05e689e5ab26da = L.circleMarker(
+                [7.5554942, 80.7137847],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_95edc5da27f1424ca4513add3ba5ada0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa8a8cfe7db745c983754f3da4d8a489 = $(`<div id="html_fa8a8cfe7db745c983754f3da4d8a489" style="width: 100.0%; height: 100.0%;">Country : Sri Lanka<br>                     # of Suicides: 35.2951515151515<br></div>`)[0];
+            popup_95edc5da27f1424ca4513add3ba5ada0.setContent(html_fa8a8cfe7db745c983754f3da4d8a489);
+        
+
+        circle_marker_a3d9eed9c8694cdfab05e689e5ab26da.bindPopup(popup_95edc5da27f1424ca4513add3ba5ada0)
+        ;
+
+        
+    
+    
+            var circle_marker_8753d84863d9407393457663b9e8b3b5 = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_8e9bb81a417a448484746d4b987fd5d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_792e8c6fcaef4dc687e680f9bd488fc5 = $(`<div id="html_792e8c6fcaef4dc687e680f9bd488fc5" style="width: 100.0%; height: 100.0%;">Country : Suriname<br>                     # of Suicides: 21.316428571428563<br></div>`)[0];
+            popup_8e9bb81a417a448484746d4b987fd5d8.setContent(html_792e8c6fcaef4dc687e680f9bd488fc5);
+        
+
+        circle_marker_8753d84863d9407393457663b9e8b3b5.bindPopup(popup_8e9bb81a417a448484746d4b987fd5d8)
+        ;
+
+        
+    
+    
+            var circle_marker_6382ad3a50cf4d2e8057d3050a2a72de = L.circleMarker(
+                [59.6749712, 14.5208584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_736ef5c798524f599890423960636aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a72691da33148d7829c8ab24a41ac66 = $(`<div id="html_2a72691da33148d7829c8ab24a41ac66" style="width: 100.0%; height: 100.0%;">Country : Sweden<br>                     # of Suicides: 14.658435754189933<br></div>`)[0];
+            popup_736ef5c798524f599890423960636aa5.setContent(html_2a72691da33148d7829c8ab24a41ac66);
+        
+
+        circle_marker_6382ad3a50cf4d2e8057d3050a2a72de.bindPopup(popup_736ef5c798524f599890423960636aa5)
+        ;
+
+        
+    
+    
+            var circle_marker_523aa5b0fb314657bb25780a495570b6 = L.circleMarker(
+                [46.7985624, 8.2319736],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_d24d154e7dc34e50b2303a8858502478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67b851ae4e3b4790ae6c16a0c2234fd8 = $(`<div id="html_67b851ae4e3b4790ae6c16a0c2234fd8" style="width: 100.0%; height: 100.0%;">Country : Switzerland<br>                     # of Suicides: 19.02408730158731<br></div>`)[0];
+            popup_d24d154e7dc34e50b2303a8858502478.setContent(html_67b851ae4e3b4790ae6c16a0c2234fd8);
+        
+
+        circle_marker_523aa5b0fb314657bb25780a495570b6.bindPopup(popup_d24d154e7dc34e50b2303a8858502478)
+        ;
+
+        
+    
+    
+            var circle_marker_c43e2e9f788045b285fe4092b9df603c = L.circleMarker(
+                [14.8971921, 100.83273],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_2ff97e2991174e018e0a2ec2b65f45db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab0a00bddbd44ba48452b2435b61454e = $(`<div id="html_ab0a00bddbd44ba48452b2435b61454e" style="width: 100.0%; height: 100.0%;">Country : Thailand<br>                     # of Suicides: 7.073862275449102<br></div>`)[0];
+            popup_2ff97e2991174e018e0a2ec2b65f45db.setContent(html_ab0a00bddbd44ba48452b2435b61454e);
+        
+
+        circle_marker_c43e2e9f788045b285fe4092b9df603c.bindPopup(popup_2ff97e2991174e018e0a2ec2b65f45db)
+        ;
+
+        
+    
+    
+            var circle_marker_0eeca5f865e74fd3a1df0b938e9f029e = L.circleMarker(
+                [10.8677845, -60.9821067],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_5489714617a846b18aa20b8f8b107b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe2eb8afa5c34dcdb1d1735b2f6f0a8a = $(`<div id="html_fe2eb8afa5c34dcdb1d1735b2f6f0a8a" style="width: 100.0%; height: 100.0%;">Country : Trinidad and Tobago<br>                     # of Suicides: 13.825648148148135<br></div>`)[0];
+            popup_5489714617a846b18aa20b8f8b107b3f.setContent(html_fe2eb8afa5c34dcdb1d1735b2f6f0a8a);
+        
+
+        circle_marker_0eeca5f865e74fd3a1df0b938e9f029e.bindPopup(popup_5489714617a846b18aa20b8f8b107b3f)
+        ;
+
+        
+    
+    
+            var circle_marker_7e9f07f16c6645fa94225ea5ef0106b7 = L.circleMarker(
+                [38.9597594, 34.9249653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_d5b7f71a69fa4c709753cf6093ad3a52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c625815363a456db310620a75b8fca5 = $(`<div id="html_4c625815363a456db310620a75b8fca5" style="width: 100.0%; height: 100.0%;">Country : Turkey<br>                     # of Suicides: 2.371071428571429<br></div>`)[0];
+            popup_d5b7f71a69fa4c709753cf6093ad3a52.setContent(html_4c625815363a456db310620a75b8fca5);
+        
+
+        circle_marker_7e9f07f16c6645fa94225ea5ef0106b7.bindPopup(popup_d5b7f71a69fa4c709753cf6093ad3a52)
+        ;
+
+        
+    
+    
+            var circle_marker_63d752e80a97481484f0ed34be20e4b7 = L.circleMarker(
+                [39.3763807, 59.3924609],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_60485ff1944f4caf8265623bd71725c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_612b32b5d2ac46e28335cf71bd0e2151 = $(`<div id="html_612b32b5d2ac46e28335cf71bd0e2151" style="width: 100.0%; height: 100.0%;">Country : Turkmenistan<br>                     # of Suicides: 8.605545977011497<br></div>`)[0];
+            popup_60485ff1944f4caf8265623bd71725c9.setContent(html_612b32b5d2ac46e28335cf71bd0e2151);
+        
+
+        circle_marker_63d752e80a97481484f0ed34be20e4b7.bindPopup(popup_60485ff1944f4caf8265623bd71725c9)
+        ;
+
+        
+    
+    
+            var circle_marker_ea60d655845d4838b43e8f00476c4ead = L.circleMarker(
+                [49.4871968, 31.2718321],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_9fccfc7007e844cda224cec3afc44487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3edd510f40245daa1278dcef37c5913 = $(`<div id="html_f3edd510f40245daa1278dcef37c5913" style="width: 100.0%; height: 100.0%;">Country : Ukraine<br>                     # of Suicides: 26.582321428571408<br></div>`)[0];
+            popup_9fccfc7007e844cda224cec3afc44487.setContent(html_f3edd510f40245daa1278dcef37c5913);
+        
+
+        circle_marker_ea60d655845d4838b43e8f00476c4ead.bindPopup(popup_9fccfc7007e844cda224cec3afc44487)
+        ;
+
+        
+    
+    
+            var circle_marker_0bc18172b9014f5f94f4cf35dff168eb = L.circleMarker(
+                [24.0002488, 53.9994829],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_35a8d382cd904d74aef70383bf0916ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_059cc886768e4ffa948e1a5006d49c19 = $(`<div id="html_059cc886768e4ffa948e1a5006d49c19" style="width: 100.0%; height: 100.0%;">Country : United Arab Emirates<br>                     # of Suicides: 1.3179166666666662<br></div>`)[0];
+            popup_35a8d382cd904d74aef70383bf0916ce.setContent(html_059cc886768e4ffa948e1a5006d49c19);
+        
+
+        circle_marker_0bc18172b9014f5f94f4cf35dff168eb.bindPopup(popup_35a8d382cd904d74aef70383bf0916ce)
+        ;
+
+        
+    
+    
+            var circle_marker_83ee92255e604aeba5a8e163edcd000a = L.circleMarker(
+                [54.7023545, -3.2765753],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_19642ecc215c43bd9b754861c278b2a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e29ae327310843c1b33b3239de5152a5 = $(`<div id="html_e29ae327310843c1b33b3239de5152a5" style="width: 100.0%; height: 100.0%;">Country : United Kingdom<br>                     # of Suicides: 7.502473118279568<br></div>`)[0];
+            popup_19642ecc215c43bd9b754861c278b2a3.setContent(html_e29ae327310843c1b33b3239de5152a5);
+        
+
+        circle_marker_83ee92255e604aeba5a8e163edcd000a.bindPopup(popup_19642ecc215c43bd9b754861c278b2a3)
+        ;
+
+        
+    
+    
+            var circle_marker_a7b144ab7c7741a0b0f91794c3928a3e = L.circleMarker(
+                [-1.0, -1.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_bd1bbe2a61b048aab8e67cddaba0357d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66cf727ccedf4dbd8452b5409e894552 = $(`<div id="html_66cf727ccedf4dbd8452b5409e894552" style="width: 100.0%; height: 100.0%;">Country : United States<br>                     # of Suicides: 13.819811827956993<br></div>`)[0];
+            popup_bd1bbe2a61b048aab8e67cddaba0357d.setContent(html_66cf727ccedf4dbd8452b5409e894552);
+        
+
+        circle_marker_a7b144ab7c7741a0b0f91794c3928a3e.bindPopup(popup_bd1bbe2a61b048aab8e67cddaba0357d)
+        ;
+
+        
+    
+    
+            var circle_marker_23d829ae34f84cd1b52588dffbb9491b = L.circleMarker(
+                [-32.8755548, -56.0201525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_18a21e19b8c54b09a50ee5ed4c49da41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bc6f55d6c7d4269ac5c61c0e6bf010e = $(`<div id="html_5bc6f55d6c7d4269ac5c61c0e6bf010e" style="width: 100.0%; height: 100.0%;">Country : Uruguay<br>                     # of Suicides: 19.461190476190477<br></div>`)[0];
+            popup_18a21e19b8c54b09a50ee5ed4c49da41.setContent(html_5bc6f55d6c7d4269ac5c61c0e6bf010e);
+        
+
+        circle_marker_23d829ae34f84cd1b52588dffbb9491b.bindPopup(popup_18a21e19b8c54b09a50ee5ed4c49da41)
+        ;
+
+        
+    
+    
+            var circle_marker_fd2570af603849699783346f3d9da65d = L.circleMarker(
+                [41.32373, 63.9528098],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_1f4382c3e5cf40d6ad881e4c4bbd3a1a);
+        
+    
+        var popup_3956ed0c790c4496a15e368982ce7f05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d374bbc3e934fb9b7fc30258a6b1ae7 = $(`<div id="html_0d374bbc3e934fb9b7fc30258a6b1ae7" style="width: 100.0%; height: 100.0%;">Country : Uzbekistan<br>                     # of Suicides: 8.09912878787879<br></div>`)[0];
+            popup_3956ed0c790c4496a15e368982ce7f05.setContent(html_0d374bbc3e934fb9b7fc30258a6b1ae7);
+        
+
+        circle_marker_fd2570af603849699783346f3d9da65d.bindPopup(popup_3956ed0c790c4496a15e368982ce7f05)
+        ;
+
+        
+    
+</script>
